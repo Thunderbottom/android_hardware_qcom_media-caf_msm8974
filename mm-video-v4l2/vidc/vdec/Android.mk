@@ -113,6 +113,9 @@ libmm-vdec-inc          += $(call project-path-for,qcom-display)/libqdutils
 libmm-vdec-inc      += $(call project-path-for,qcom-media)/libc2dcolorconvert
 libmm-vdec-inc      += $(call project-path-for,qcom-display)/libcopybit
 libmm-vdec-inc      += frameworks/av/include/media/stagefright
+libmm-vdec-inc	    += frameworks/native/libs/nativebase/include
+libmm-vdec-inc      += frameworks/native/libs/nativewindow/include
+libmm-vdec-inc      += frameworks/native/libs/arect/include
 libmm-vdec-inc      += $(TARGET_OUT_HEADERS)/mm-video/SwVdec
 libmm-vdec-inc      += $(TARGET_OUT_HEADERS)/qcom/display/
 
